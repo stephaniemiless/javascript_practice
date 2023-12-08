@@ -1,1 +1,1 @@
-# javascript_practice
+# Javascript, HTML, and CSS practice
