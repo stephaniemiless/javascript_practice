@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Button Demo</title>
+</head>
+<body>
+    <a href="https://www.amazon.com/ref=nav_logo" target="_blank">
+        <button id="myButton" style="font-size: 24px; background-color: aquamarine; color:darkred;">
+            click me
+        </button>
+    </a>
+    <script>
+        document.getElementById("myButton").onclick = function() {
+            document.getElementById("myButton").textContent = "clicked";
+        };
+    </script>
+</body>
+</html>
