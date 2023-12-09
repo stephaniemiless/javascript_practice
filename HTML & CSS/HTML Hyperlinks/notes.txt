@@ -1,0 +1,6 @@
+an attribute (href = "") is a name-value pair that 
+modifies the behavior of an element.
+
+target = "_blank" <- link opens in a new tab
+
+title = "" <- displays a tooltip when you hover over link

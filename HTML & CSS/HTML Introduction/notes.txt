@@ -1,0 +1,24 @@
+tags are in pairs
+ex. <h1></h1> 
+
+html adds structure to a webpage
+
+css styles the webpage
+
+homepage file should usually be named index.html
+
+the <head></head> tags contain information about the webpage
+- the title
+- link to the css file
+
+the <body></body> tag contains the visible content within your webpage.
+
+paragraphs are separated with a line break
+
+<br> is a self closing tag
+tags with closing tags usually have content between them
+
+<hr> creates a horizontal line across the entire page
+
+<pre></pre> instead of <p></p> will retain line breaks and spaces
+
