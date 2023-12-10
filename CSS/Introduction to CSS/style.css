@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+}
+
+#p1 {
+    color: red;
+}
+
+#p2 {
+    color: orange;
+}
+
+#p3 {
+    color: yellow;
+}
+
+#p4 {
+    color: green;
+}
+
+/*
+all elements with odd class
+.odd{
+
+}
+*/
+
+/* only paragraph text with odd class */
+p.odd {
+    cursor: pointer;
+}
+
+p.even {
+    cursor: cell;
+}
+
+/* 
+While an ID is specific to a single element, classes can be assigned
+multiple elements on a page or throughout the website. They are unique.
+And while a single element can only have on ID, it can have multiple
+classes. 
+*/
+
+/*
+IDs have more priority over classes
+*/
+
