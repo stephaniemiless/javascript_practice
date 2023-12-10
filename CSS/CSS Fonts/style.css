@@ -1,0 +1,15 @@
+@font-face {
+    font-family: raleway;
+    src: url(fonts/Raleway-VariableFont_wght.ttf);
+}
+
+h1 {
+    font-family: raleway, sans-serif;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1em;
+    font-weight: lighter;
+    font-style: normal;
+}
