@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Demo</title>
+</head>
+<body>
+    <!-- Post is used for confidential information-->
+    <!-- Get is used for insensitive information-->
+    <form action="index.php" method="POST" enctype="multipart/form-data">
+        <hr>
+        <label for="username">username:</label>
+        <input type="text" id="username" minlength="6" maxlength="20" placeholder="username.." required>
+        <br>
+
+        <label for="password">password:</label>
+        <input type="password" id="password" placeholder="password.." minlength="10" maxlength="16" required>
+        <br>
+
+        <label for="email">email:</label>
+        <input type="email" id="email" placeholder="example@domain.com">
+        <br>
+
+        <label for="phone">phone number:</label>
+        <input type="tel" id="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+        <br>
+
+        <label for="birthday">birthday:</label>
+        <input type="date" id="birthday">
+        <br>
+
+        <label for="quantity">quantity:</label>
+        <input type="number" id="quantity" value="1" min="0" max="99" required>
+        <br>
+
+        <label for="title">title:</label>
+        <label for="Ms">Ms.</label>
+        <input type="radio" id="Ms" value="Ms." name="title">
+        <label for="Mr">Mr.</label>
+        <input type="radio" id="Mr" value="Mr." name="title">
+        <label for="PhD">PhD.</label>
+        <input type="radio" id="PhD" value="PhD." name="title">
+        <br>
+
+        <label for="payment">payment:</label>  
+        <select>
+            <option value="credit">credit</option>
+            <option value="debit">debit</option>
+            <option value="paypal">paypal</option>
+        </select> 
+        <br>
+        
+        <label for="subscribe">subcribe</label>
+        <input type="checkbox" id="subscribe">
+        <br>
+
+        <label for="comment">comments:</label>
+        <textarea id="comment" rows="3", cols="25"></textarea>
+        <br>
+
+        <label for="file">file:</label><br>
+        <input type="file" id="file" accept="image/png, image/jpeg">
+        <br>
+
+        <hr>
+
+        <br>
+        <input type="reset">
+        <br>
+        <input type="submit">
+    </form>
+</body>
+</html>
