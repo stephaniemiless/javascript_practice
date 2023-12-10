@@ -1,0 +1,23 @@
+body {
+    background-color: slategray;
+}
+
+h1 {
+    text-align: center;
+}
+
+#p1 {
+    color: darkred;
+}
+
+#p2 {
+    color: rgb(102, 222, 255);
+}
+
+#p3 {
+    color: hsl(335, 100%, 79%);
+}
+
+#p4 {
+    color:#45FF80FF;
+}
