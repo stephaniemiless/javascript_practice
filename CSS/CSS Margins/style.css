@@ -1,0 +1,18 @@
+.box {
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    border: 5px solid black;
+    font-size: 5em;
+}
+
+#box1 {
+    background-color: hotpink;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#box2 {
+    background-color: aquamarine;
+    margin-left: auto;
+}
