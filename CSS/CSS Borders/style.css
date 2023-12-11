@@ -1,0 +1,14 @@
+
+h1 {
+    border: 5px solid rgba(54, 131, 126, 0.843);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+p {
+    padding: 10px;
+    border-left: 5px solid green;
+    border-top: 5px dashed blue;
+    border-right: 5px dotted orange;
+    border-bottom: 5px ridge pink;
+}
